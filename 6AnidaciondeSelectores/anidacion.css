@@ -1,0 +1,23 @@
+.custom-button {
+    position: relative;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .custom-button::before {
+    content: "Pasa por encima";
+  } 
+  
+  .custom-button:hover {
+    color: white;
+    background-color: green;
+  }
+  
+  .custom-button:hover::before {
+    content: "¡Hecho!";
+  }
+  
